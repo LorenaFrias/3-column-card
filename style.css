@@ -1,0 +1,121 @@
+/* VARIABLES */
+
+:root {
+    --Darkcyan: hsl(184, 100%, 22%);
+    --BrightOrange: hsl(31, 77%, 52%);
+    --Verydarkcyan: hsl(179, 100%, 13%);
+    --VeryLightGray: hsl(0, 0%, 95%);
+    --Transparentwhite: hsla(0, 0%, 100%, 0.75);
+  
+}
+
+
+/* CSS RESET */
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+
+img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+}
+
+input, button, textarea, select {
+    font-family: inherit;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+}
+
+
+
+body {
+    line-height: 1.5;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    color: var(--VeryLightGray);
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.card-wrapper {
+    margin: 2em 1.5em;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+
+.card {
+    padding: 3em;
+}
+
+.card__title {
+    font-family: "Big Shoulders Display", cursive;
+    /* font-size: 2.5rem; */
+    font-size: 2.5rem;
+    color: var(--VeryLightGray);
+    text-transform: uppercase;
+    margin-top: .8em;
+}
+
+.card__text {
+  
+    color: var(--Transparentwhite);
+
+    line-height: 1.7;
+  
+    margin-top: 1.4em;
+    
+}
+
+
+.card__btn {
+    display: inline-block;
+   
+    text-transform: capitalize;
+    background-color: var(--VeryLightGray);
+    border-radius: 30px;
+    padding: .85em 2.2em;
+    margin-top: 1.5em;
+  }
+
+
+
+.card--orange {
+    background-color: var(--BrightOrange);
+  }
+  
+  .card--orange a {
+    color: var(--BrightOrange);
+  }
+  
+  .card--cyan {
+    background-color: var(--Darkcyan);
+  }
+  
+  .card--cyan a {
+    color: var(--Darkcyan);
+  }
+  
+  .card--darkcyan {
+    background-color: var(--Verydarkcyan);
+  }
+  
+  .card--darkcyan a {
+    color: var(--Verydarkcyan);
+  }
