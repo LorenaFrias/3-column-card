@@ -44,6 +44,7 @@ p, h1, h2, h3, h4, h5, h6 {
 
 
 body {
+    background-color: var(--VeryLightGray);
     line-height: 1.5;
     font-family: 'Lexend Deca', sans-serif;
     font-size: 15px;
@@ -137,7 +138,8 @@ a {
     }
 
     .card-wrapper {
-        margin: 0 auto;
+    
+        margin-top: 4em;
         display: grid;
         max-width: 900px;
         grid-auto-flow: column;
