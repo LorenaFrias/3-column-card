@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![screenshot](./screenshot.png)
 
 
 
@@ -36,7 +36,7 @@ Users should be able to:
 ### Links
 
 - [Solution URL](https://github.com/LorenaFrias/3-column-card)
-- [Live Site URL](https://your-live-site-url.com)
+- [Live Site URL](https://candid-jalebi-60bcd2.netlify.app/)
 
 ## My process
 
